@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92090E5922382BA3003DB7DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92090E5822382BA3003DB7DB /* AppDelegate.swift */; };
+		92090E5B22382BA3003DB7DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92090E5A22382BA3003DB7DB /* ViewController.swift */; };
+		92090E5E22382BA3003DB7DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92090E5C22382BA3003DB7DB /* Main.storyboard */; };
+		92090E6322382BA3003DB7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92090E6222382BA3003DB7DB /* Assets.xcassets */; };
+		92090E6622382BA3003DB7DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92090E6422382BA3003DB7DB /* LaunchScreen.storyboard */; };
+		92090E7122382BA3003DB7DB /* Date_PickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92090E7022382BA3003DB7DB /* Date_PickerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92090E6D22382BA3003DB7DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92090E4D22382BA3003DB7DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92090E5422382BA3003DB7DB;
+			remoteInfo = "Date Picker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92090E5522382BA3003DB7DB /* Date Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Date Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92090E5822382BA3003DB7DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92090E5A22382BA3003DB7DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92090E5D22382BA3003DB7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92090E6222382BA3003DB7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92090E6522382BA3003DB7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92090E6722382BA3003DB7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92090E6C22382BA3003DB7DB /* Date PickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Date PickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92090E7022382BA3003DB7DB /* Date_PickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date_PickerUITests.swift; sourceTree = "<group>"; };
+		92090E7222382BA3003DB7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92090E5222382BA3003DB7DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92090E6922382BA3003DB7DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92090E4C22382BA3003DB7DB = {
+			isa = PBXGroup;
+			children = (
+				92090E5722382BA3003DB7DB /* Date Picker */,
+				92090E6F22382BA3003DB7DB /* Date PickerUITests */,
+				92090E5622382BA3003DB7DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92090E5622382BA3003DB7DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92090E5522382BA3003DB7DB /* Date Picker.app */,
+				92090E6C22382BA3003DB7DB /* Date PickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92090E5722382BA3003DB7DB /* Date Picker */ = {
+			isa = PBXGroup;
+			children = (
+				92090E5822382BA3003DB7DB /* AppDelegate.swift */,
+				92090E5A22382BA3003DB7DB /* ViewController.swift */,
+				92090E5C22382BA3003DB7DB /* Main.storyboard */,
+				92090E6222382BA3003DB7DB /* Assets.xcassets */,
+				92090E6422382BA3003DB7DB /* LaunchScreen.storyboard */,
+				92090E6722382BA3003DB7DB /* Info.plist */,
+			);
+			path = "Date Picker";
+			sourceTree = "<group>";
+		};
+		92090E6F22382BA3003DB7DB /* Date PickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92090E7022382BA3003DB7DB /* Date_PickerUITests.swift */,
+				92090E7222382BA3003DB7DB /* Info.plist */,
+			);
+			path = "Date PickerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92090E5422382BA3003DB7DB /* Date Picker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92090E7522382BA3003DB7DB /* Build configuration list for PBXNativeTarget "Date Picker" */;
+			buildPhases = (
+				92090E5122382BA3003DB7DB /* Sources */,
+				92090E5222382BA3003DB7DB /* Frameworks */,
+				92090E5322382BA3003DB7DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Date Picker";
+			productName = "Date Picker";
+			productReference = 92090E5522382BA3003DB7DB /* Date Picker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92090E6B22382BA3003DB7DB /* Date PickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92090E7822382BA3003DB7DB /* Build configuration list for PBXNativeTarget "Date PickerUITests" */;
+			buildPhases = (
+				92090E6822382BA3003DB7DB /* Sources */,
+				92090E6922382BA3003DB7DB /* Frameworks */,
+				92090E6A22382BA3003DB7DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92090E6E22382BA3003DB7DB /* PBXTargetDependency */,
+			);
+			name = "Date PickerUITests";
+			productName = "Date PickerUITests";
+			productReference = 92090E6C22382BA3003DB7DB /* Date PickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92090E4D22382BA3003DB7DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Thomas Jurczyk";
+				TargetAttributes = {
+					92090E5422382BA3003DB7DB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					92090E6B22382BA3003DB7DB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 92090E5422382BA3003DB7DB;
+					};
+				};
+			};
+			buildConfigurationList = 92090E5022382BA3003DB7DB /* Build configuration list for PBXProject "Date Picker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92090E4C22382BA3003DB7DB;
+			productRefGroup = 92090E5622382BA3003DB7DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92090E5422382BA3003DB7DB /* Date Picker */,
+				92090E6B22382BA3003DB7DB /* Date PickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92090E5322382BA3003DB7DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92090E6622382BA3003DB7DB /* LaunchScreen.storyboard in Resources */,
+				92090E6322382BA3003DB7DB /* Assets.xcassets in Resources */,
+				92090E5E22382BA3003DB7DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92090E6A22382BA3003DB7DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92090E5122382BA3003DB7DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92090E5B22382BA3003DB7DB /* ViewController.swift in Sources */,
+				92090E5922382BA3003DB7DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92090E6822382BA3003DB7DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92090E7122382BA3003DB7DB /* Date_PickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92090E6E22382BA3003DB7DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92090E5422382BA3003DB7DB /* Date Picker */;
+			targetProxy = 92090E6D22382BA3003DB7DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92090E5C22382BA3003DB7DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92090E5D22382BA3003DB7DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92090E6422382BA3003DB7DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92090E6522382BA3003DB7DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92090E7322382BA3003DB7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92090E7422382BA3003DB7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92090E7622382BA3003DB7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 692TH724XD;
+				INFOPLIST_FILE = "Date Picker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ThomasJurczyk.Date-Picker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92090E7722382BA3003DB7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 692TH724XD;
+				INFOPLIST_FILE = "Date Picker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ThomasJurczyk.Date-Picker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92090E7922382BA3003DB7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 692TH724XD;
+				INFOPLIST_FILE = "Date PickerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ThomasJurczyk.Date-PickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Date Picker";
+			};
+			name = Debug;
+		};
+		92090E7A22382BA3003DB7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 692TH724XD;
+				INFOPLIST_FILE = "Date PickerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ThomasJurczyk.Date-PickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Date Picker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92090E5022382BA3003DB7DB /* Build configuration list for PBXProject "Date Picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92090E7322382BA3003DB7DB /* Debug */,
+				92090E7422382BA3003DB7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92090E7522382BA3003DB7DB /* Build configuration list for PBXNativeTarget "Date Picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92090E7622382BA3003DB7DB /* Debug */,
+				92090E7722382BA3003DB7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92090E7822382BA3003DB7DB /* Build configuration list for PBXNativeTarget "Date PickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92090E7922382BA3003DB7DB /* Debug */,
+				92090E7A22382BA3003DB7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92090E4D22382BA3003DB7DB /* Project object */;
+}
